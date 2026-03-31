@@ -1,0 +1,98 @@
+/* Semua Halaman */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.login-container {
+    background:#eaebec;
+    background-position:right;
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px #2a2d30;
+    width: 320px;
+    text-align: center;
+    animation: alternate;
+}
+
+.login-container h2 {
+    margin-bottom: 1.5rem;
+    color:rgb(20, 22, 24);
+}
+
+.inputform {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.inputform input {
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border: 1px solid #1f2428;
+    border-radius: 10px;
+    outline:none;
+    transition: border-color 0.3s;
+}
+
+.inputform input:focus {
+    border-color: #353739;
+}
+
+.inputform label {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    color:#010101;
+    pointer-events: none;
+    transition: 0.3s ease all;
+}
+
+.inputform input:focus + label,
+.inputform input:valid + label {
+    top: -15px;
+    left: 8px;
+    font-size: 0.8rem;
+    color: #282d31;
+    padding: 0 4px;
+    border-radius: 20px;
+}
+button {
+    width: 80%;
+    padding: 10px;
+    background: #525d63;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #40494e;
+    transform:translateX(4.5px);
+}
+
+.pesan-salah {
+    color:red;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.welcome {
+    color: #0a4160;
+    text-align: right;
+    margin-right: 30rem;
+}
