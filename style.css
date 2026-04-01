@@ -93,6 +93,7 @@ button:hover {
 
 .welcome {
     color: #0a4160;
-    text-align: right;
+    text-align: 50%;
     margin-right: 30rem;
+    padding: 0%;
 }
